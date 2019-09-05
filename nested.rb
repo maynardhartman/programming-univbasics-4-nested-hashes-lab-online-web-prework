@@ -36,7 +36,9 @@ def alan_kay_is_known_for
           :known_for => "Unix",
           :languages => ["C"]
         }
+    
      }
+     return([:alan_kay][:known_for])
 end
 
 def dennis_ritchies_language
@@ -77,7 +79,11 @@ def adding_matz
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
-        }
+        },
+        :yukihiro_matsumoto => {
+        :known_for => "Ruby",
+        :languages => ["LISP", "C"]
+         }
      }
 
     
