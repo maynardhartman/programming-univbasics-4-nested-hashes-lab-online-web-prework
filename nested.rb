@@ -85,8 +85,6 @@ def adding_matz
         :languages => ["LISP", "C"]
          }
      }
-
-    
 end
 
 def changing_alan
@@ -97,8 +95,8 @@ def changing_alan
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
+          :known_for => ["GUI"]
+          :languages => ["Smalltalk","LISP"]
         },
         :dennis_ritchie => {
           :known_for => "Unix",
@@ -119,7 +117,7 @@ def adding_to_dennis
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :known_for => "GUI",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
